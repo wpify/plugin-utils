@@ -129,4 +129,11 @@ class PluginUtils {
 	public function get_text_domain(): string {
 		return $this->text_domain;
 	}
+
+	/**
+	 * @return string
+	 */
+	public function get_plugin_file(): string {
+		return $this->plugin_file;
+	}
 }
